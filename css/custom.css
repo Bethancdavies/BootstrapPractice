@@ -4,4 +4,37 @@ images used kept same as unsplash names a/p creator
 @author BDavies
 @Since Nov 26/2020
 */
+body {
+  color: #f9f9f9;
+}
+main {
+  background-image: url(../images/brain-background.png);
+  background-repeat: no-repeat;
+  height: calc(100vh - 50px);
+  background-position: center;
+}
 
+.jumbotron {
+  margin-top: 15%;
+  height: 50vh;
+  background-color: #020323;
+}
+.navbar {
+  margin: 0;
+  background-color: #020323;
+  color: #f9f9f9;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #f9f9f9;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: lightslategray;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: lightslategray;
+}
