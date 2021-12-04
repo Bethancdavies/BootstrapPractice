@@ -75,3 +75,13 @@ main {
 .carousel-caption {
   color: black;
 }
+
+.btn-primary {
+  width: 60%;
+  margin: 0 auto;
+}
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
