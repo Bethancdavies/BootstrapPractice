@@ -4,30 +4,36 @@ images used kept same as unsplash names a/p creator
 @author BDavies
 @Since Nov 26/2020
 */
+/* changes font-color of body to off whie */
 body {
   color: #f9f9f9;
 }
-
+/* removes margin of navabar, changes background to navy, font color too off white */
 .navbar {
-  margin: 0;
+  margin-bottom: 0;
   background-color: #020323;
   color: #f9f9f9;
 }
+/* changes navbar a tags and brand color to off white */
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: #f9f9f9;
 }
-
+/* changes brand pseudo selectors to white */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: lightslategray;
 }
-
+/* changes navbar a tags pseudo selectors to white */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: lightslategray;
 }
-
+/* changes background of columns on index page */
+.col-lg-6 {
+  background-color: #020323;
+}
+/* changes background of jumbotron to navy, adds margin and gives positioning */
 .jumbotron {
   margin-top: 50px;
   height: 50vh;
@@ -36,50 +42,31 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+/* creates background image for main sections on all pages */
 main {
   background-image: url(../images/brain-background.png);
   background-repeat: no-repeat;
   height: calc(100vh - 50px);
   background-position: center;
 }
-.mb-4 {
-  background-color: #020323;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* changes width of divider on reasearch page */
+.featurette-divider {
+  border: 2px solid #020323;
 }
-
-.contact-form-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.col-lg-4 {
-  background-color: #020323;
-}
-
+/* gives background color to featurette on research page */
 .col-md-7 {
   background-color: #020323;
 }
 
-.featurette-image {
-  max-width: 200px;
-}
-.featurette-divider {
-  border: 2px solid #020323;
-}
-.carousel {
-  width: 100%;
-}
-.carousel-caption {
-  color: black;
-}
+/* contact page button - centre and make with 60%, change color */
 
 .btn-primary {
   width: 60%;
   margin: 0 auto;
+  background-color: slategray;
+  margin-top: 40px;
 }
+/* flexes content on index page to center vertically */
 .main-flex {
   display: flex;
   flex-direction: column;
