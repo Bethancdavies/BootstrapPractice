@@ -8,6 +8,26 @@ images used kept same as unsplash names a/p creator
 body {
   color: #f9f9f9;
 }
+/* centers carousel and adds height  */
+.carousel {
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 80vh;
+}
+/* sets width on carousel item */
+.item img {
+  width: 350px;
+  margin: 0 auto;
+}
+.item {
+  height: 100%;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+}
+.carousel-inner {
+  height: 50vh;
+}
 /* removes margin of navabar, changes background to navy, font color too off white */
 .navbar {
   margin-bottom: 0;
@@ -71,4 +91,23 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+/* centers image on publications page */
+.publications-image {
+  margin: 0 auto;
+}
+/* gives table background */
+.table {
+  background: #020323;
+}
+/* h2 and a tags in publications font size increase and change color */
+.publications h2,
+.publications a {
+  color: #020323;
+  font-size: 3rem;
+}
+/* table anchor tags turned back to white and inherit size */
+.table a {
+  color: white;
+  font-size: inherit;
 }

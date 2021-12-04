@@ -46,7 +46,6 @@ Associated Pages: contact, about, research and publications
       <div class="container">
         <div class="jumbotron jumbotron-fluid">
           <h1 class="display-4">Jessica Livingston PhD</h1>
-          <img src="" alt="" />
           <p class="lead">
             As Learning Manager at Holland College, I help the next generation of scientists acquire the skills they need to thrive in the exciting field of
             biotechnology.
@@ -54,38 +53,65 @@ Associated Pages: contact, about, research and publications
         </div>
       </div>
     </header>
-    <main class="main-flex">
-      <div class="container">
-        <div class="col-lg-6">
-          <h2>Teaching</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero repudiandae quae quasi tempora eum magnam id eaque et aut exercitationem
-            consectetur commodi, officia rem vero esse maxime quos harum a!
-          </p>
-        </div>
-        <div class="col-lg-6">
-          <h2>Collaborations</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim soluta vero aliquid voluptates natus nam, repellendus debitis officiis est tempore
-            nostrum porro, eos sapiente magni. Hic ipsum minus et deserunt!
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="col-lg-6">
-          <h2>Research</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus dicta temporibus aperiam explicabo maiores autem officiis, voluptatum corrupti,
-            totam iusto impedit ratione suscipit? Officia, porro earum in alias mollitia sit!
-          </p>
-        </div>
+    <main>
+      <!-- Carousel container -->
+      <div class="container-fluid">
+        <div id="my-pics" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#my-pics" data-slide-to="0" class="active"></li>
+            <li data-target="#my-pics" data-slide-to="1"></li>
+            <li data-target="#my-pics" data-slide-to="2"></li>
+          </ol>
 
-        <div class="col-lg-6">
-          <h2>Science Outreach</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facilis error, deleniti distinctio enim nostrum accusamus fugiat qui quas
-            voluptas nisi alias quam dolore expedita tenetur modi soluta, voluptate quisquam?
-          </p>
+          <!-- Content -->
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div class="item active">
+              <img src="./images/microscope.png" alt="cartoon image of microscope" />
+              <div class="carousel-caption">
+                <h3>Molecular Techniques</h3>
+                <p>
+                  I use molecular techniques including protein and RNA analysis to determine regulation and expression of proteins, histology to investigate
+                  gross changes on a cellular and tissue level, and immunoflouresence to identify cells and proteins.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="item">
+              <img src="./images/lab.png" alt="cartoon image of lab person" />
+              <div class="carousel-caption">
+                <h3>In Vitro</h3>
+                <p>
+                  I have experience working with primary and immortalized cell cultures, growing organoids, performing neurosphere assays, and microfluidic
+                  cultures. I also have experience with in vitro injury models like oxygen-glucose deprivation.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="item">
+              <img src="./images/rat.png" alt="cartoon image of rat" />
+              <div class="carousel-caption">
+                <h3>In Vivo</h3>
+                <p>
+                  I have years of experience working with rats and mice- including breeding and maintaining transgenic lines. I regularly use preclinical models
+                  of stroke, cerebral palsy, and multiple sclerosis. I have lots of surgical experience, and am an expert in behavioural testing!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Previous/Next controls -->
+          <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
+            <span class="icon-prev" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+            <span class="icon-next" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </main>
